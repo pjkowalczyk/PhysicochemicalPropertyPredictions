@@ -1,0 +1,19 @@
+\contentsline {chapter}{\numberline {1}Organization of this final report}{3}{chapter.1}
+\contentsline {chapter}{\numberline {2}Introduction}{4}{chapter.2}
+\contentsline {chapter}{\numberline {3}Materials and Methods}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Data Set}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Features}{8}{section.3.2}
+\contentsline {section}{\numberline {3.3}Classifiers}{8}{section.3.3}
+\contentsline {chapter}{\numberline {4}Results and Discussion}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Building the training set and the test set}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Feature Engineering}{9}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Zero variance features}{9}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Feature Correlation}{10}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Machine Learning Models}{11}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Multiple Linear Regression}{11}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Partial Least Squares}{12}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Support Vector Machine}{13}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}K-Nearest Neighbors}{14}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Random Forest}{15}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Boosted Trees}{17}{subsection.4.3.6}
+\contentsline {chapter}{\numberline {5}Conclusion}{18}{chapter.5}
