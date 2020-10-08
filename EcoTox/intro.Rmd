@@ -1,0 +1,13 @@
+---
+title: "data science / science des données"
+output: html_document
+---
+
+**OPERA models for predicting physicochemcial properties and environmental fate endpoints**  
+Mansouri *et al., J. Cheminform.*, (2018) 10:10.  
+[https://doi.org/10.1186/s13321-018-0263-1](https://doi.org/10.1186/s13321-018-0263-1)  
+
+**In Silico Prediction of Physicochemical Properties of Environmental Chemicals Using Molecular Fingerprints and Machine Learning**  
+Zang *et al., J. Chem. Inf. Model.*, (2017) **57** 36-49.   
+https://doi.org/10.1021/acs.jcim.6b00625
+
