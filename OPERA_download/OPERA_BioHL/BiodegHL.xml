@@ -1,0 +1,1902 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE QMRF PUBLIC "http://qmrf.sourceforge.net/qmrf.dtd" "qmrf.dtd">
+<QMRF author="Joint Research Centre, European Commission" contact="Joint Research Centre, European Commission" date="May 2012" email="JRC-IHCP-COMPUTOX@ec.europa.eu" name="(Q)SAR Model Reporting Format" schema_version="1.0" url="http://ihcp.jrc.ec.europa.eu/" version="1.3">
+<QMRF_chapters>
+<QSAR_identifier chapter="1" help="" name="QSAR identifier">
+<QSAR_title chapter="1.1" help="" name="QSAR identifier (title)">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;span&gt;&lt;font color="#000000"&gt;OPERA-&lt;/font&gt;&lt;font&gt;model for &lt;/font&gt;Biodegradation &#13;
+    half-life&lt;/span&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</QSAR_title>
+<QSAR_models chapter="1.2" help="" name="Other related models">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      No related models&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</QSAR_models>
+<QSAR_software chapter="1.3" help="" name="Software coding the model">
+			
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<software_ref idref="firstsoftware"/>
+<software_ref idref="software_catalog_4"/>
+<software_ref idref="software_catalog_5"/>
+</QSAR_software>
+</QSAR_identifier>
+<QSAR_General_information chapter="2" help="" name="General information">
+<qmrf_date chapter="2.1" help="" name="Date of QMRF">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p&gt;&#13;
+      1 November 2016&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</qmrf_date>
+<qmrf_authors chapter="2.2" help="" name="QMRF author(s) and contact details">
+		
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<author_ref idref="firstauthor"/>
+<author_ref idref="authors_catalog_3"/>
+</qmrf_authors>
+<qmrf_date_revision chapter="2.3" help="" name="Date of QMRF update(s)">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+&#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</qmrf_date_revision>
+<qmrf_revision chapter="2.4" help="" name="QMRF update(s)"/>
+<model_authors chapter="2.5" help="" name="Model developer(s) and contact details">
+		
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<author_ref idref="modelauthor"/>
+</model_authors>
+<model_date chapter="2.6" help="" name="Date of model development and/or publication">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      2016&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</model_date>
+<references chapter="2.7" help="" name="Reference(s) to main scientific papers and/or software package">
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<publication_ref idref="publications_catalog_2"/>
+<publication_ref idref="publications_catalog_3"/>
+<publication_ref idref="publications_catalog_4"/>
+<publication_ref idref="publications_catalog_5"/>
+<publication_ref idref="publications_catalog_6"/>
+<publication_ref idref="publications_catalog_7"/>
+<publication_ref idref="publications_catalog_11"/>
+<publication_ref idref="publications_catalog_12"/>
+</references>
+<info_availability chapter="2.8" help="" name="Availability of information about the model">&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      &lt;font&gt;Non-proprietary suite of QSAR models freely available as a command 
+      line standalone application (OPERA: OPEn saR App) from github under MIT 
+      license: https://github.com/kmansouri/OPERA.git. Its predictions for the 
+      full DSSTox 720k chemicals are published on the EPA CompTox Chemistry 
+      Dashboard ( &lt;span&gt;https://comptox.epa.gov/dashboard&lt;/span&gt;). Training 
+      and validation sets are available for visualization on the dashboard and 
+      as SDF files provided in supporting information Section 9.3 and from the 
+      paper &lt;span&gt;[ref 1-2, Section 2.7]&lt;/span&gt;. ( &lt;span&gt;ftp://newftp.epa.gov/COMPTOX/Sustainable_Chemistry_Data/Chemistry_Dashboard/PHYSPROP_Analysis)&lt;/span&gt;&lt;/font&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</info_availability>
+<related_models chapter="2.9" help="" name="Availability of another QMRF for exactly the same model">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+&#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      Not to date&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</related_models>
+</QSAR_General_information>
+<QSAR_Endpoint chapter="3" help="" name="Defining the endpoint - OECD Principle 1">
+<model_species chapter="3.1" help="" name="Species">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+&#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      Not applicable&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</model_species>
+<model_endpoint chapter="3.2" help="" name="Endpoint">
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<endpoint_ref idref="endpoints_catalog_2"/>
+</model_endpoint>
+<endpoint_comments chapter="3.3" help="" name="Comment on endpoint">&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;span&gt;Biodegradation half-life&lt;/span&gt; for compounds containing only carbon 
+    and hydrogen (i.e. hydrocarbons).
+  &lt;/body&gt;
+&lt;/html&gt;</endpoint_comments>
+<endpoint_units chapter="3.4" help="" name="Endpoint units">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;span&gt;Log days&lt;/span&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</endpoint_units>
+<endpoint_variable chapter="3.5" help="" name="Dependent variable">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      Log HalfLife&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</endpoint_variable>
+<endpoint_protocol chapter="3.6" help="" name="Experimental protocol">&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;span&gt;&lt;font&gt;The experimental data were downloaded from the EPI Suite data 
+    webpage (&lt;/font&gt;&lt;/span&gt;&lt;font&gt;http://esc.syrres.com/interkow/EpiSuiteData.htm). 
+    These data are from &lt;span&gt;PHYSPROP &lt;/span&gt;(The Physical Properties 
+    Database) which is a collection of a wide variety of sources built by 
+    Syracuse Research Corporation (SRC). Experimental protocols of the 
+    different parts of data can be traced back to the original referenced 
+    literature from the database.&lt;/font&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</endpoint_protocol>
+<endpoint_data_quality chapter="3.7" help="" name="Endpoint data quality and variability">&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      &lt;span&gt;The original data collected from the PHYSPROP database (175 
+      chemicals) have undergone a series of processes to curate the chemical 
+      structures and remove duplicates, obvious outliers and erroneous 
+      entries. This procedure also included a consistency check to ensure only 
+      good quality data is used for the development of the QSAR model (151 
+      chemicals). &lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span&gt;Then, QSAR-ready structures were generated by standardizing all 
+      chemical structures and removing duplicates, inorganic and 
+      metallo-organic chemicals (150 chemicals). The descriptions of KNIME 
+      workflows that were developed for the purpose of the cleaning and 
+      standardization of the data are available in the papers [ref 1 and ref 4 
+      Section 2.7]. &lt;/span&gt;
+    &lt;/p&gt;
+    &lt;span&gt;The curated outlier-free experimental data (150 chemicals) was 
+    divided into training and validation sets before the machine learning and 
+    modeling steps. &lt;/span&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</endpoint_data_quality>
+</QSAR_Endpoint>
+<QSAR_Algorithm chapter="4" help="" name="Defining the algorithm - OECD Principle 2">
+<algorithm_type chapter="4.1" help="" name="Type of model">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p&gt;&#13;
+      &lt;font&gt;QSAR/QSPR model derived derived from weighted nearest neighbors &#13;
+      algorithm (kNN) based on PaDEL descriptors [ref2 Sect 1.3].&lt;/font&gt;&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</algorithm_type>
+<algorithm_explicit chapter="4.2" help="" name="Explicit algorithm">
+<algorithm_ref idref="algorithms_catalog_1"/>
+<equation>&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+&#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</equation>
+</algorithm_explicit>
+<algorithms_descriptors chapter="4.3" help="" name="Descriptors in the model">
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<descriptor_ref idref="descriptors_catalog_46"/>
+<descriptor_ref idref="descriptors_catalog_47"/>
+<descriptor_ref idref="descriptors_catalog_48"/>
+<descriptor_ref idref="descriptors_catalog_49"/>
+<descriptor_ref idref="descriptors_catalog_50"/>
+<descriptor_ref idref="descriptors_catalog_52"/>
+</algorithms_descriptors>
+<descriptors_selection chapter="4.4" help="" name="Descriptor selection">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &lt;font color="#000000"&gt;&#13;
+&lt;/font&gt;  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &lt;font color="#000000"&gt;PaDEL software was used to calculate 1440 &#13;
+      molecular descriptors. A first filter was applied in order to remove &#13;
+      descriptors with missing values, constant and near constant (standard &#13;
+      deviation of 0.25 as a threshold) and highly correlated descriptors (96% &#13;
+      as a threshold). The remaining 650 descriptors were used in a feature &#13;
+      selection procedure to select a minimum number of variables encoding the &#13;
+      most relevant structural information to the modeled endpoint. This step &#13;
+      consisted of coupling Genetic Algorithms (GA) with the weighted kNN &#13;
+      algorithm and was applied in 5 fold cross validation on the training set (112 &#13;
+      chemicals). This procedure was run for 200 consecutive independent runs &#13;
+      maximizing Q &lt;sup&gt;2&lt;/sup&gt; in cross-validation and minimizing the number &#13;
+      of descriptors. The number of k neighbors is optimized within the range &#13;
+      of 3 to 7. The descriptors were then ranked based on their frequency of &#13;
+      selection during the GA runs. The best model showed an optimal &#13;
+      compromise between the simplicity (minimum number of descriptors) and &#13;
+      performance (Q&lt;sup&gt;2&lt;/sup&gt; in cross-validation) to ensure transparency &#13;
+      and facilitate the mechanistic interpretation as required by OECD &#13;
+      principles 2 and 5. More details in paper [ref2 Section 2.7].&lt;/font&gt;&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</descriptors_selection>
+<descriptors_generation chapter="4.5" help="" name="Algorithm and descriptor generation">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p&gt;&#13;
+      &lt;font color="#000000"&gt;PaDEL descriptors were calculated based on &#13;
+      two-dimensional (2D) chemical structures generated by the Indigo &#13;
+      cheminformatics suite of tools implemented in KNIME. 2D descriptors were &#13;
+      selected over 3D to avoid complicated and usually irreproducible &#13;
+      geometrical optimizations. The calculated descriptors fall into &#13;
+      different groups such as constitutional indices, ring descriptors, &#13;
+      topological indices, 2D matrix based descriptors, functional group &#13;
+      counts and atom counts. Details and references provided in Section 4.3.&lt;/font&gt;&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</descriptors_generation>
+<descriptors_generation_software chapter="4.6" help="" name="Software name and version for descriptor generation" options="">
+				
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<software_ref idref="software_catalog_2"/>
+</descriptors_generation_software>
+<descriptors_chemicals_ratio chapter="4.7" help="" name="Chemicals/Descriptors ratio">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &lt;font color="#000000"&gt;&#13;
+&lt;/font&gt;  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &lt;font color="#000000"&gt;112 chemicals (trainingset)/6 descriptors= 18.66&lt;/font&gt;&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</descriptors_chemicals_ratio>
+</QSAR_Algorithm>
+<QSAR_Applicability_domain chapter="5" help="" name="Defining the applicability domain - OECD Principle 3">
+<app_domain_description chapter="5.1" help="" name="Description of the applicability domain of the model">&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      The model is applicable to heterogeneous organic chemicals. In the
+    &lt;/p&gt;
+    &lt;p&gt;
+      implementation of the model several pieces of information are given to
+    &lt;/p&gt;
+    &lt;p&gt;
+      help the user in evaluating the reliability of a prediction. The 
+      chemical structure is first assessed to see if it is falling within the
+    &lt;/p&gt;
+    &lt;p&gt;
+      Applicability Domain of the model or not. Then the accuracy of the 
+      predicted value is reported based on the similarity of the query 
+      chemical to its neighboring chemicals in the training set of the model.
+    &lt;/p&gt;
+    &lt;p&gt;
+      This fullfills the requirements of the 3rd OECD principle by d &lt;span&gt;efining 
+      the limitations in terms of the types of chemical structures, 
+      physicochemical properties and mechanisms of action for which the model 
+      can generate reliable predictions.&lt;/span&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</app_domain_description>
+<app_domain_method chapter="5.2" help="" name="Method used to assess the applicability domain">&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      The applicability domain of the model is assessed in two independent 
+      levels using two different distance-based methods. First, a global 
+      applicability domain is determined by means of the leverage approach 
+      that checks whether the query structure falls within the 
+      multidimensional chemical space of the whole training set.
+    &lt;/p&gt;
+    &lt;p&gt;
+      The leverage of a query chemical is proportional to its Mahalanobis 
+      distance measure from the centroid of the training set. The leverages of 
+      a given dataset are obtained from the diagonal values of the hat matrix. 
+      This approach is associated with a threshold leverage that corresponds 
+      to 3*p/n where p is the number of model variables while n is the number 
+      of training compounds. A query chemical with leverage higher than the 
+      threshold is considered outside the AD and can be associated with 
+      unreliable prediction.
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font&gt;The leverage approach has specific limitations, in particular with 
+      respects to gaps within the descriptor space of the model or at the 
+      boundaries of the training set. To obviate such limitations, a second 
+      tier of applicability domain assessement was added. This comprised a 
+      local approach which only investigated the vicinity of the query 
+      chemical. This local approach provides a continuous index ranging from 0 
+      to 1 which is different from the first approach which only provides 
+      Boolean answers (yes/no). This local AD-index is relative to the 
+      similarity of the query chemical to its 5 nearest neighbors in the p 
+      dimensional space of the model. The higher this index, the more the 
+      prediction is likely to be reliable.&lt;/font&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</app_domain_method>
+<app_domain_software chapter="5.3" help="" name="Software name and version for applicability domain assessment">
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<software_ref idref="software_catalog_3"/>
+</app_domain_software>
+<applicability_limits chapter="5.4" help="" name="Limits of applicability">&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      &lt;font&gt;These two AD methods described in Section 5.2 are complementary 
+      and can be interpreted in the following way: &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font&gt;- If a chemical is considered outside the global AD with a low 
+      local AD-index, the prediction can be unreliable &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font&gt;- If a chemical is considered outside the global AD but the local 
+      AD-index is average or relatively high, this means the query chemical is 
+      on the boundaries of the training set but has quite similar neighbors. 
+      The prediction can be trusted. &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font&gt;- If a chemical is considered inside the global AD but the local 
+      AD-index is average or relatively low, this means the query chemical 
+      fell in a &amp;quot;gap&amp;quot; of the chemical space of the model but still within the 
+      boudaries of the training set and surrounded with training chemicals. 
+      The prediction should be considered with caution. &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font&gt;- If a chemical is considered inside the global AD with a high 
+      local AD-index, the prediction should be considered reliable. &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;font&gt;Even though the applicability domain is necessary to set the 
+      limits of the interpolation space of the model, it doesn't necessarily 
+      inform about the quality of the prediction especially in the empty 
+      spaces and around the edges of the descriptor space. In order to 
+      overcome this limitation and help the user decide about the reliability 
+      of a prediction, we added a confidence level index ranging from 0 to 1 
+      relative to the accuracy of prediction of the 5 nearest neighbors to the 
+      query chemical. The higher this index, the more the prediction is likely 
+      to be reliable.&lt;/font&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</applicability_limits>
+</QSAR_Applicability_domain>
+<QSAR_Robustness chapter="6" help="" name="Internal validation - OECD Principle 4">
+<training_set_availability answer="Yes" chapter="6.1" help="" name="Availability of the training set"/>
+<training_set_data cas="Yes" chapter="6.2" chemname="Yes" formula="No" help="" inchi="Yes" mol="Yes" name="Available information for the training set" smiles="Yes">Internal ID; CAS checksum; name validity; preferred name; IUPAC name; Original SMILES; QSAR-ready canonical smiles; InChI; Salt information; DSSTox GSID; Experimental reference; Consistency flag</training_set_data>
+<training_set_descriptors answer="All" chapter="6.3" help="" name="Data for each descriptor variable for the training set"/>
+<dependent_var_availability answer="All" chapter="6.4" help="" name="Data for the dependent variable for the training set"/>
+<other_info chapter="6.5" help="" name="Other information about the training set">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &lt;font color="#000000"&gt;&#13;
+&lt;/font&gt;  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &lt;font color="#000000"&gt;The training set consists of 112 chemicals. The &#13;
+      structures are randomly selected to represent 75% of the available data &#13;
+      keeping a similar normal distrubution of LogHalfLife vlaues in both &#13;
+      training and test sets using the Venetian blinds method. The values are &#13;
+      ranging from ~0.3 to ~3. A plot of the distribution of LogHalffLife &#13;
+      values is provided in the supporting information Section 9.3.&lt;/font&gt;&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</other_info>
+<preprocessing chapter="6.6" help="" name="Pre-processing of data before modelling">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+&#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      No preprocessing of the values.&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</preprocessing>
+<goodness_of_fit chapter="6.7" help="" name="Statistics for goodness-of-fit">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      Performance in training:&#13;
+    &lt;/p&gt;&#13;
+    &lt;p&gt;&#13;
+      R&lt;sup&gt;2&lt;/sup&gt;=0.88&#13;
+    &lt;/p&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      RMSE=0.26&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</goodness_of_fit>
+<loo chapter="6.8" help="" name="Robustness - Statistics obtained by leave-one-out cross-validation"/>
+<lmo chapter="6.9" help="" name="Robustness - Statistics obtained by leave-many-out cross-validation">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &lt;font color="#000000"&gt;&#13;
+&lt;/font&gt;  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &lt;font color="#000000"&gt;Performance in 5-fold cross-validation:&#13;
+&lt;/font&gt;    &lt;/p&gt;&#13;
+    &lt;p&gt;&#13;
+      &lt;font color="#000000"&gt;Q&lt;sup&gt;2&lt;/sup&gt;=0.89&#13;
+&lt;/font&gt;    &lt;/p&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &lt;font color="#000000"&gt;RMSE=0.25&#13;
+&lt;/font&gt;    &lt;/p&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &lt;font color="#000000"&gt;A plot of the experimental versus predicted values &#13;
+      for the training set is provided in supporting information Section 9.3.&lt;/font&gt;&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</lmo>
+<yscrambling chapter="6.10" help="" name="Robustness - Statistics obtained by Y-scrambling"/>
+<bootstrap chapter="6.11" help="" name="Robustness - Statistics obtained by bootstrap"/>
+<other_statistics chapter="6.12" help="" name="Robustness - Statistics obtained by other methods"/>
+</QSAR_Robustness>
+<QSAR_Predictivity chapter="7" help="" name="External validation - OECD Principle 4">
+<validation_set_availability answer="Yes" chapter="7.1" help="" name="Availability of the external validation set"/>
+<validation_set_data cas="Yes" chapter="7.2" chemname="Yes" formula="No" help="" inchi="Yes" mol="Yes" name="Available information for the external validation set" smiles="Yes">Internal ID; CAS checksum; name validity; preferred name; IUPAC name; Original SMILES; QSAR-ready canonical smiles; InChI; Salt information; DSSTox GSID; Experimental reference; Consistency flag</validation_set_data>
+<validation_set_descriptors answer="All" chapter="7.3" help="" name="Data for each descriptor variable for the external validation set"/>
+<validation_dependent_var_availability answer="All" chapter="7.4" help="" name="Data for the dependent variable for the external validation set"/>
+<validation_other_info chapter="7.5" help="" name="Other information about the external validation set">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      The validation set consists of 38 chemicals.&#13;
+    &lt;/p&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      The values are ranging from ~0.3 to ~2.5.&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</validation_other_info>
+<experimental_design chapter="7.6" help="" name="Experimental design of test set">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &lt;font color="#000000"&gt;&#13;
+&lt;/font&gt;  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &lt;font color="#000000"&gt;The structures are randomly selected to represent &#13;
+      25% of the available data keeping a similar normal distrubution of &#13;
+      LogHalfLife vlaues in both training and test sets using the Venetian &#13;
+      blinds method. A plot of the distribution of LogHalfLife values is &#13;
+      provided in the supporting information Section 9.3.&lt;/font&gt;&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</experimental_design>
+<validation_predictivity chapter="7.7" help="" name="Predictivity - Statistics obtained by external validation">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      Performance in test:&#13;
+    &lt;/p&gt;&#13;
+    &lt;p&gt;&#13;
+      R &lt;sup&gt;2&lt;/sup&gt;=0.75&#13;
+    &lt;/p&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      RMSE=0.38&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</validation_predictivity>
+<validation_assessment chapter="7.8" help="" name="Predictivity - Assessment of the external validation set">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &lt;font color="#000000"&gt;&#13;
+&lt;/font&gt;  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &lt;font color="#000000"&gt;The validation set consisting of 38 chemicals &#13;
+      which is equivalent to a third (1/3) of the training set is sufficient &#13;
+      for the evaluation of the predictivity of the model and a good &#13;
+      representation of the chemical space as shown in the multi-dimensional &#13;
+      scaling plot provided in supporting information Section 9.3. A plot of &#13;
+      the experimental versus predicted values for the validation set is &#13;
+      provided in supporting information Section 9.3.&lt;/font&gt;&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</validation_assessment>
+<validation_comments chapter="7.9" help="" name="Comments on the external validation of the model">&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      The choice of proportions between the training set and the validation 
+      set as well as the splitting method helped in accurately evaluating the 
+      model and covering most of the training set chemical space. This goal 
+      was accomplished without the need to do a structural sampling that 
+      usually shows over-optimistic evaluation of the predictivity or a 
+      complete random selection that risks biasing the evaluation towards a 
+      certain region of the chemical space.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</validation_comments>
+</QSAR_Predictivity>
+<QSAR_Interpretation chapter="8" help="" name="Providing a mechanistic interpretation - OECD Principle 5">
+<mechanistic_basis chapter="8.1" help="" name="Mechanistic basis of the model">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      The model descriptors were selected statistically but they can also be &#13;
+      mechanistically interpreted.&#13;
+    &lt;/p&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &#13;
+    &lt;/p&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      Mansouri et al. 2013 provided a mechanistic interpretation of molecular &#13;
+      descriptors related to biodegradability of organic chemicals [ref 1 &#13;
+      Section 9.2]. They confirmed literature sources stating that cyclicity &#13;
+      decreases biodegradability [ref 2 Section 9.2]. Here we used two &#13;
+      descriptors encoding ring information (nF6Ring and nT6Ring).&#13;
+    &lt;/p&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &#13;
+    &lt;/p&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      It was demonstrated that water soluble molecules tend to be more easily &#13;
+      biodegradable than insoluble ones [ref 3 Section 9.2]. Here we used two &#13;
+      molecular descriptors that encode information about polarizability &#13;
+      (BCUTp-11 and ATSC1p) which is correlated with water solubility.&#13;
+    &lt;/p&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &#13;
+    &lt;/p&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      IC2 and VP-6 inform about the branching of the chemicals which was &#13;
+      reported in the literature to have a negative influence on the &#13;
+      biodegradability of organic chemicals [ref 1 Section 9.2].&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</mechanistic_basis>
+<mechanistic_basis_comments chapter="8.2" help="" name="A priori or a posteriori mechanistic interpretation">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      A posteriori mechanistic interpretation.&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</mechanistic_basis_comments>
+<mechanistic_basis_info chapter="8.3" help="" name="Other information about the mechanistic interpretation">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &#13;
+  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &lt;font color="#000000"&gt;For more details and full reference, see &#13;
+      references in Section 4.3 and Section 9.2.&lt;/font&gt;&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</mechanistic_basis_info>
+</QSAR_Interpretation>
+<QSAR_Miscelaneous chapter="9" help="" name="Miscellaneous information">
+<comments chapter="9.1" help="" name="Comments">&lt;html&gt;&#13;
+  &lt;head&gt;&#13;
+    &lt;font color="#000000"&gt;&#13;
+&lt;/font&gt;  &lt;/head&gt;&#13;
+  &lt;body&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &lt;font color="#000000"&gt;This QSAR model for LogHalfLife prediction is part &#13;
+      of the NCCT_Models Suite that is a free and open-source standalone &#13;
+      application for the prediction of physicochemical properties and &#13;
+      environmental fate of chemicals. This application is available in the &#13;
+      Supporting information Section 9.3 of this report and in the paper ref 2 &#13;
+      Section 2.7. The detailed results of this suite of models applied on &#13;
+      more than 700k DSSTox chemicals are available on the iCSS chemistry &#13;
+      dashboard (https://comptox.epa.gov/dashboard).&#13;
+&lt;/font&gt;    &lt;/p&gt;&#13;
+    &lt;p&gt;&#13;
+      &lt;font color="#000000"&gt;This current version of the model is mainly based &#13;
+      on curated and standardized data collected from the Physprop database. &#13;
+      All NCCT_Models are designed to fulfil the requirement of the 5 OECD &#13;
+      principles to ensure transparency and reproducibility of the results. In &#13;
+      order to predict new chemicals, the models only require 2D chemical &#13;
+      structures that are used to calculate molecular descriptors by PaDEL &#13;
+      2.21 software. Then a simple weighted kNN algorithm is used to make the &#13;
+      prediction based on the observed values of the k closest molecules. All &#13;
+      models showed high robustness and statistics stability between training, &#13;
+      5-fold cross-validation and the external validation set.&#13;
+&lt;/font&gt;    &lt;/p&gt;&#13;
+    &lt;p style="margin-top: 0"&gt;&#13;
+      &lt;font color="#000000"&gt;Considering the full applicability domain of the 150 &#13;
+      chemicals with available data and the same models parameters described &#13;
+      earlier, the calibration statistics would be an R &lt;sup&gt;2&lt;/sup&gt; of 0.84 and &#13;
+      an RMSE of 0.29.&lt;/font&gt;&#13;
+    &lt;/p&gt;&#13;
+  &lt;/body&gt;&#13;
+&lt;/html&gt;</comments>
+<bibliography chapter="9.2" help="" name="Bibliography">
+				
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<publication_ref idref="publications_catalog_8"/>
+<publication_ref idref="publications_catalog_9"/>
+<publication_ref idref="publications_catalog_10"/>
+</bibliography>
+<attachments chapter="9.3" help="" name="Supporting information">
+        
+        
+        
+        
+        
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<attachment_training_data>
+<molecules description="TR_BioHL.sdf" embedded="NO" filetype="sdf" url="file:///\\nassrvr\users\kmansouri\My Documents\Work\OPERA\OPERA_JRC\TR_BioHL.sdf"/>
+</attachment_training_data>
+<attachment_validation_data>
+<molecules description="TST_BioHL.sdf" embedded="NO" filetype="sdf" url="file:///\\nassrvr\users\kmansouri\My Documents\Work\OPERA\OPERA_JRC\TST_BioHL.sdf"/>
+</attachment_validation_data>
+<attachment_documents>
+<document description="Biodeg.tif" embedded="NO" filetype="tif" url="file:///\\Aa.ad.epa.gov\ord\RTP\Users\K-Q\kmansour\Net MyDocuments\work\OPERA\figs\Biodeg.tif"/>
+<document description="Biodeg_hist.tif" embedded="NO" filetype="tif" url="file:///\\Aa.ad.epa.gov\ord\RTP\Users\K-Q\kmansour\Net MyDocuments\work\OPERA\figs\Biodeg_hist.tif"/>
+</attachment_documents>
+</attachments>
+</QSAR_Miscelaneous>
+<QMRF_Summary chapter="10" help="" name="Summary (JRC QSAR Model Database)">
+<QMRF_number chapter="10.1" help="" name="QMRF number">To be entered by JRC</QMRF_number>
+<date_publication chapter="10.2" help="" name="Publication date">To be entered by JRC</date_publication>
+<keywords chapter="10.3" help="" name="Keywords">&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;span&gt;Biodegradation half-life, PaDEL, OPERA&lt;/span&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</keywords>
+<summary_comments chapter="10.4" help="" name="Comments">To be entered by JRC</summary_comments>
+</QMRF_Summary>
+</QMRF_chapters>
+<Catalogs>
+<software_catalog>
+<software contact="Kamel Mansouri (mansourikamel@gmail.com)" description="OPERA (OPEn (quantitative) structure-activity Relationship Application) is a standalone free and open source command line application. It provides a suite of QSAR models to predict physicochemical properties and environmental fate of organic chemicals based on PaDEL descriptors. It is available for download in Matlab, C and C++ languages from github under MIT license." id="firstsoftware" name="OPERA V1.5" number="" url="https://github.com/kmansouri/OPERA.git"/>
+<software contact="Chun Wei Yap (phayapc@nus.edu.sg)" description="An open source software to calculate molecular descriptors and fingerprints." id="software_catalog_2" name="PaDEL-Descriptors V2.21" number="" url="http://padel.nus.edu.sg/software/padeldescriptor"/>
+<software contact="Kamel Mansouri (mansourikamel@gmail.com);" description="An implementation of a local similarity index and the leverage approach  based on the work of Sahigara, F.; Mansouri, K.; Ballabio, D.; Mauri, A.; Consonni, V.; Todeschini, R. Comparison of Different Approaches to Define the Applicability Domain of QSAR Models. Molecules 2012, 17, 4791-4810." id="software_catalog_3" name="Implemented in OPERA V1.5" number="" url="https://github.com/kmansouri/OPERA.git"/>
+<software contact="Chun Wei Yap (phayapc@nus.edu.sg)" description="Open source software to calculate molecular descriptors and fingerprints." id="software_catalog_4" name="PaDEL descriptors V2.21" number="" url="http://padel.nus.edu.sg/software/padeldescriptor"/>
+<software contact="http://www.mathworks.com/company/aboutus/contact_us/?s_tid=gn_cntus" description="MATrix LABoratory is a multi-paradigm numerical computing environment and fourth-generation programming language" id="software_catalog_5" name="MATLAB V8.2" number="" url="http://www.mathworks.com/products/matlab/"/>
+</software_catalog>
+<algorithms_catalog>
+<algorithm definition="Distance weighted k-nearest neighbors (kNN).  k=5." description="This is a refinement of the classical k-NN classification algorithm where the contribution of each of the k neighbors is weighted according to their distance to the query point, giving greater weight to closer neighbors.The used distance is the Euclidean distance. kNN is an unambiguous algorithm that fulfills the transparency requirements of  OECD principle 2 with an optimal compromise between model complexity and performance." id="algorithms_catalog_1" publication_ref=""/>
+</algorithms_catalog>
+<descriptors_catalog>
+<descriptor description="Polarizability weighted BCUTS. Pearlman, R.S. and Smith, K.M., Metric Validation and the Receptor-Relevant Subspace Concept, J. Chem. Inf. Comput. Sci., 1999, 39:28-35; Burden, F.R., Molecular identification number for substructure searches , J. Chem. Inf. Comput. Sci., 1989, 29:225-227; Burden, F.R., Chemically Intuitive Molecular Index, Quant. Struct .-Act. Relat., 1997, 16:309-314;" id="descriptors_catalog_46" name="BCUTp-1l," publication_ref="" units="Unitless,"/>
+<descriptor description="Information content index (neighborhood symmetry of 2-order). Todeschini, R. and Consonni, V. (2009). Molecular descriptors for chemoinformatics, (Weinheim: Wiley VCH) pg 408-411." id="descriptors_catalog_47" name="IC2," publication_ref="" units="Unitless,"/>
+<descriptor description="Ring count: Number of 6-membered fused rings." id="descriptors_catalog_48" name="nF6Ring," publication_ref="" units="Unitless,"/>
+<descriptor description="Centered Broto-Moreau autocorrelation - lag 1 / weighted by polarizabilities. Todeschini, R. and Consonni, V. (2009). Molecular descriptors for chemoinformatics, (Weinheim: Wiley VCH) pg 27-37" id="descriptors_catalog_49" name="ATSC1p," publication_ref="" units="Unitless,"/>
+<descriptor description="Number of 6-membered rings (includes counts from fused rings)" id="descriptors_catalog_50" name="nT6Ring," publication_ref="" units="Unitless,"/>
+<descriptor description="Chi path: Valence path, order 6. Kier, L. B., and Hall, L. H. (1976). Molecular connectivity in chemistry and drug research,  (New York: Academic Press)." id="descriptors_catalog_52" name="VP-6," publication_ref="" units="Unitless,"/>
+</descriptors_catalog>
+<endpoints_catalog>
+<endpoint group="QMRF 2. Environmental fate parameters" id="endpoints_catalog_2" name="QMRF 2. 3.b. Persistence: Biodegradation. Biodegradation time frame (primary, ultimate degradation)"/>
+</endpoints_catalog>
+<publications_catalog>
+<publication id="publications_catalog_2" title="An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modeling. 2016. Kamel Mansouri, Chris M. Grulke, Ann M. Richard, Richard S. Judson and Antony J. Williams. SAR &amp; QSAR in Environ. Res; Vol. 27 , Iss. 11,2016. doi: 10.1080/1062936X.2016.1253611." url=""/>
+<publication id="publications_catalog_3" title="OPERA: A free and open source QSAR tool for physicochemical properties and environmental fate predictions. Kamel Mansouri, Chris Grulke, Richard Judson, Antony Williams, Journal of Cheminformatics (2017)" url=""/>
+<publication id="publications_catalog_4" title="PaDEL-descriptor: an open source software to calculate molecular descriptors and fingerprints. Chun Wei Yap. (2011).  J. Comput. Chem., 32: 1466–1474. doi:10.1002/jcc.21707" url="http://onlinelibrary.wiley.com/doi/10.1002/jcc.21707/abstract"/>
+<publication id="publications_catalog_5" title="A KNIME workflow for chemical structures curation and standardization in QSAR modeling. Kamel Mansouri, Sherif Farag, Jayaram Kancherla, Regina Politi, Eugene Muratov, Denis Fourches, Nikolai Nikolov, Eva Bay Wedebay, Christopher Grulke, Ann Richard, Richard Judson, Alexander Tropsha. (in preparation)" url=""/>
+<publication id="publications_catalog_6" title="The influence of data curation on QSAR Modeling – examining issues of quality versus quantity of data (SOT). Williams, A., K. Mansouri, A. Richard, AND C. Grulke. Presented at Society of Toxicology, New Orleans, LA, March 13 - 17, 2016." url="https://cfpub.epa.gov/si/si_public_record_report.cfm?dirEntryId=311418"/>
+<publication id="publications_catalog_7" title="An Online Prediction Platform to Support the Environmental Sciences (American Chemical Society). Richard, A., C. Grulke, K. Mansouri, R. Judson, AND A. Williams. Presented at ACS Spring Meeting, San Diego, CA, March 13 - 17, 2016." url="https://cfpub.epa.gov/si/si_public_record_Report.cfm?dirEntryId=311655"/>
+<publication id="publications_catalog_8" title="Boethling RS (1996) Designing Biodegradable Chemicals. In Designing Safer Chemicals; DeVito SC, Garrett R L, Eds.; American Chemical Society: Washington, DC, 640, 156−171." url=""/>
+<publication id="publications_catalog_9" title="Mansouri K, Ringsted T, Ballabio D,* Todeschini Rand Consonni V (2013) Quantitative Structure−Activity Relationship Models for Ready Biodegradability of Chemicals. J. Chem. Inf. Mode 53, 867−878" url=""/>
+<publication id="publications_catalog_10" title="Klopman G, Balthasar DM, Rosenkranz HS (1993) Application of the computer-automated structure evaluation (CASE) program to the study of structure-biodegradation relationships of miscellaneous chemicals. Environ. Toxicol. Chem. 12, 231−240." url=""/>
+<publication id="publications_catalog_11" title="The importance of data curation on QSAR Modeling: PHYSPROP open data as a case study. Kamel Mansouri, Christopher Grulke Ann Richard Richard Judson Antony Williams. Presented at QSAR2016 14 June 2016, Miami, FL" url="http://www.qsar2016.com/program"/>
+<publication id="publications_catalog_12" title="Mansouri K. (2017) OPERA: A QSAR tool for physicochemical properties and environmental fate predictions. doi: 10.6084/m9.figshare.4836428" url="https://figshare.com/articles/OPERA_A_QSAR_tool_for_physicochemical_properties_and_environmental_fate_predictions/4836428"/>
+</publications_catalog>
+<authors_catalog>
+<author affiliation="ORISE research fellow at National Center for Computational Toxicology (NCCT), U.S. Environmental Protection Agency," contact="" email="mansourikamel@gmail.com" id="firstauthor" name="Kamel Mansouri," number="" url=""/>
+<author affiliation="ORISE research fellow at National Center for Computational Toxicology (NCCT), U.S. Environmental Protection Agency," contact="" email="mansourikamel@gmail.com" id="modelauthor" name="Kamel Mansouri," number="" url=""/>
+<author affiliation="National Center for Computational Toxicology (NCCT), U.S. Environmental Protection Agency," contact="" email="Williams.Antony@epa.gov" id="authors_catalog_3" name="Antony Williams," number="" url=""/>
+</authors_catalog>
+</Catalogs>
+</QMRF>
